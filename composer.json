@@ -1,0 +1,25 @@
+{
+    "name": "rogeriopradoj/box-calculator",
+    "description": "Série de cálculos usados na Box, some calculations done at Box",
+    "keywords": ["box", "calculator", "php52"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Rogerio Prado de Jesus",
+        "email": "rogeriopradoj@gmail.com"
+    }],
+    "require": {
+        "php": ">5.2.6",
+        "rogeriopradoj/uberloader": "0.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "suggest": {
+        "xrstf/composer-php52": "Allow composer autoload to be used in PHP 5.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "RogerioPradoJ_": "src/"
+        }
+    }
+}
