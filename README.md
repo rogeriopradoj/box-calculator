@@ -24,14 +24,17 @@ After installing, you need to require Composer's autoloader:
 ```php
 <?php
 require 'vendor/autoload.php';
-
 // or vendor/autoload_52.php if you are in PHP 5.2
 
-$apf = '1234567';
+// apf dv
+$apf           = '1234567';
+$calculatorApf = new RogerioPradoJ_BoxCalculator_Apf();
+$dvApf         = $calculatorApf->dvApf($apf);
 
-$calculator = new RogerioPradoJ_BoxCalculator_Apf();
+$empregado           = 'C222222'
+$calculatorEmpregado = new RogerioPradoJ_BoxCalculator_Empregado();
+$dvMatricula         = $calculatorEmpregado->dvMatricula($empregado);
 
-$dv = $calculator->dvApf($apf);
 ```
 
 
