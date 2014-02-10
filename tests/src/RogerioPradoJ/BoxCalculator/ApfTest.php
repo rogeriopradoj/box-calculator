@@ -43,6 +43,12 @@ class RogerioPradoJ_BoxCalculator_ApfTest extends PHPUnit_Framework_TestCase
             array('0227448', '95'),
             array('0230764', '90'),
             array('1234567', '05'),
+            array('0195902', '14'),
+            array('0216986', '81'),
+            array('0228810', '18'),
+            array('0228811', '22'),
+            array('0245991', '62'),
+            array('0245995', '08'),
         );
     }
 
