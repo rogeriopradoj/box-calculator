@@ -8,14 +8,13 @@
         "email": "rogeriopradoj@gmail.com"
     }],
     "require": {
-        "php": ">5.2.6",
-        "rogeriopradoj/uberloader": "0.0.1"
+        "php": ">5.2.6"
     },
     "require-dev": {
         "phpunit/phpunit": "~3.7"
     },
     "suggest": {
-        "xrstf/composer-php52": "Allow composer autoload to be used in PHP 5.2"
+        "xrstf/composer-php52": "Allow composer's autoload to be used in PHP 5.2"
     },
     "autoload": {
         "psr-0": {

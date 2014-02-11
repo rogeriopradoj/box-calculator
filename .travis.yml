@@ -6,12 +6,8 @@ php:
     - 5.3
     - 5.2
 
-env:
-    - RUN=phpunit
-    - RUN=vendor/bin/phpunit
-
-script: ${RUN}
+script: phpunit
 
 before_script:
-    - "composer selfupdate"
-    - "composer install --prefer-dist --verbose"
+    - chmod +x .travis.sh
+    - ./.travis.sh
