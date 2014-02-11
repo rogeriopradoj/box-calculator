@@ -24,15 +24,36 @@ After installing, you need to require Composer's autoloader:
 ```php
 <?php
 require 'vendor/autoload.php';
-
 // or vendor/autoload_52.php if you are in PHP 5.2
 
-$apf = '1234567';
+// apf dv
+$apf           = '1234567';
+$calculatorApf = new RogerioPradoJ_BoxCalculator_Apf();
+$dvApf         = $calculatorApf->dvApf($apf);
 
-$calculator = new RogerioPradoJ_BoxCalculator_Apf();
+$empregado           = 'C222222'
+$calculatorEmpregado = new RogerioPradoJ_BoxCalculator_Empregado();
+$dvMatricula         = $calculatorEmpregado->dvMatricula($empregado);
 
-$dv = $calculator->dvApf($apf);
 ```
+
+Versioning
+----------
+
+[Semantic versioning](http://semver.org/).
+
+Changelog
+---------
+
+### 1.1.0 - 2014-02-11
+
+- Empregado, matrícula DV
+- Fix tests in PHP 5.2
+- Run tests in HHVM
+
+### 1.0.0 - 2014-02-10
+
+- Apf, DV
 
 
 License
