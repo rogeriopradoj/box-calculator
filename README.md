@@ -37,6 +37,24 @@ $dvMatricula         = $calculatorEmpregado->dvMatricula($empregado);
 
 ```
 
+Versioning
+----------
+
+[Semantic versioning](http://semver.org/).
+
+Changelog
+---------
+
+### 1.1.0 - 2014-02-11
+
+- Empregado, matrícula DV
+- Fix tests in PHP 5.2
+- Run tests in HHVM
+
+### 1.0.0 - 2014-02-10
+
+- Apf, DV
+
 
 License
 -------
