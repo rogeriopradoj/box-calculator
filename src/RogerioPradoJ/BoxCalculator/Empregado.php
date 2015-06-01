@@ -11,7 +11,7 @@ class RogerioPradoJ_BoxCalculator_Empregado
      * @throws InvalidArgumentException Se matrícula não tiver exatamente sete dígitos
      *                                  ou não começar com C
      */
-    public function dvMatricula($matricula)
+    public static function dvMatricula($matricula)
     {
         if ((strlen($matricula) !== 7) ) {
             throw new InvalidArgumentException("Matrícula deve ter 7 dígitos", 1);
