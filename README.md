@@ -35,6 +35,10 @@ $empregado           = 'C222222'
 $calculatorEmpregado = new RogerioPradoJ_BoxCalculator_Empregado();
 $dvMatricula         = $calculatorEmpregado->dvMatricula($empregado);
 
+$unidade           = '1234'
+$calculatorUnidade = new RogerioPradoJ_BoxCalculator_Unidade();
+$dvCodigo          = $calculatorUnidade->dvCodigo($unidade);
+
 ```
 
 Versioning
@@ -44,6 +48,10 @@ Versioning
 
 Changelog
 ---------
+
+### 1.2.0 - 2016-03-04
+
+- Unidade, código DV
 
 ### 1.1.0 - 2014-02-11
 
