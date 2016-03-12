@@ -31,9 +31,9 @@ $apf           = '1234567';
 $calculatorApf = new RogerioPradoJ_BoxCalculator_Apf();
 $dvApf         = $calculatorApf->dvApf($apf);
 
-$empregado           = 'C222222'
+$matricula           = 'C222222'
 $calculatorEmpregado = new RogerioPradoJ_BoxCalculator_Empregado();
-$dvMatricula         = $calculatorEmpregado->dvMatricula($empregado);
+$dvMatricula         = $calculatorEmpregado->dvMatricula($matricula);
 
 $unidade           = '1234'
 $calculatorUnidade = new RogerioPradoJ_BoxCalculator_Unidade();
